@@ -4,7 +4,7 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT ZEMIY_REPORT01.
-*comment line
+*comment line ...
 
 TRY.
     cl_salv_gui_table_ida=>create(
