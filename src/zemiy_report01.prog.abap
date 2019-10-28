@@ -4,7 +4,10 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT ZEMIY_REPORT01.
-*comment line ...
+*comment line 1...
+*comment line 2...
+
+SELECT * from t100 INTO TABLE @data(gt_data).
 
 TRY.
     cl_salv_gui_table_ida=>create(
